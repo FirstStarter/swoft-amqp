@@ -310,6 +310,14 @@ class Client
     {
         $this->queue = $queue;
     }
+    
+    /**
+     * @param string $route
+     */
+    public function setRoute(string $route): void
+    {
+        $this->route = $route;
+    }
 
     /**
      * @param array $channels
